@@ -1,0 +1,96 @@
+input[type="number"],input[type="text"],input[type="date"],#symptoms,select{
+  width:60%;
+  float: left;
+  padding: 5px;
+  border: 1px solid rgb(14, 11, 194);
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.start{
+  padding :50px
+}
+body{
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(#231f66,#99ffff);    
+}
+.covid{
+  width:100%;
+  background-color:rgb(0,0,0,0);
+  padding:2px;  
+}
+h1{
+color:#fff; 
+border:5px #001a33; 
+font-size:30px;
+text-align:center;
+padding:2px;
+}
+form {
+  align-items: center;
+  border-radius: 10px;
+  background-color: #eeeaea;
+  padding: 50px;
+  box-shadow: 1rem .5rem 0 #231f66;
+}
+label{
+  float: left;
+  width:40%;
+}
+
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+
+.row:after {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  content: "";
+  display: table;
+  clear: both;
+}
+h3{
+  color:#eeeaea;
+  text-transform: capitalize;
+  font-size:larger;
+  text-align:center;
+  text-decoration:underline;
+}
+p{
+  font-family:verdana;
+  font-size:75%;
+  
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+.submit,.reset{
+  width: 10%;
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 4px;
+  border:none;
+  cursor: pointer;
+}
+.reset{
+  background-color:#1a8cff;
+}
+.submit:hover,.reset:hover{
+  background-color: rgb(16, 5, 77);
+  border: #ff0000;
+  border-width: 2px;
+  border-color: #ff0000;
+  border-radius: 4px;
+}
+.name{
+font-size:15px;
+}

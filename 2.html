@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Covid Updates</title>
+<meta charset = "utf-8" />
+<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+<div class="covid">
+<h1>Covid Updates</h1>
+</div>
+<strong>Coronavirus disease (COVID-19)</strong> is an infectious disease caused by a newly discovered coronavirus.
+Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.<br>
+You can see the cases information <a href="https://www.covid19india.org/"><font color="black" size="3">here.</font></a>
+
+<h3>Fill the form </h3>
+ <div class="start">
+  <form action="#" style="padding:10px;">
+<div id="name" style="width:100%;">First Name: <input type="text" name="fname" size="25" placeholder="Enter first name" style="font-size:15px;" required>
+&nbsp;&nbsp;&nbsp;Last Name: <input type="text" name="lname" placeholder="Enter last name" style="font-size:15px;" required><br><br></div>
+Gender: <label><input type="radio"> Male</label>
+<label><input type="radio"> Female</label>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;District: 
+<select id="dist" name="district">
+  <option value="--">--Select--</option>
+  <option value="AL">Alappuzha</option>
+  <option value="ER">Ernakulam</option>
+  <option value="ID">Idukki</option>
+  <option value="KN">Kannur</option>
+  <option value="KS">Kasargod</option>
+  <option value="KL">Kollam</option>
+  <option value="KT">Kottayam</option>
+  <option value="KZ">Kozhikod</option>
+  <option value="MA">Malappuram</option>
+  <option value="PL">Palakkad</option>
+  <option value="PT">Pathanamthitta</option>
+  <option value="TV">Thiruvananthapuram</option>
+  <option value="TS">Thrissur</option>
+  <option value="WA">Wayanad</option>
+</select><br><br>
+Mobile: 
+<input type="text" name="phno" placeholder="Enter mobile number" style="font-size:15px;" required>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age: 
+<input type="text" name="age" maxlength = "3" style="width:70px; height:15px;"><br><br>
+Did you tested Covid positive? 
+<label><input type="radio" id="yes" name="test" > Yes</label>
+ <label></label> <input type="radio" id="no" name="test"> No</label><br><br>
+
+If yes, when did you tested positive? <input type="date" name=""><br><br>
+Where is cause of your disease? <input type="text" name="" style="font-size:15px;"><br><br>
+
+What are symptoms? <br>
+<label> <input type="checkbox" id="symp1" name="">
+  Fever</label><br>
+  <label> <input type="checkbox" id="symp2" name="">
+   Dry cough</label><br>
+   <label> <input type="checkbox" id="symp3" name="">
+  Tiredness</label><br>
+  <label> <input type="checkbox" id="symp4" name="">
+  Aches and pains</label><br>
+  <label> <input type="checkbox" id="symp5" name="">
+   Headache</label><br><br>
+<p><strong><u>Feedback:</strong> <em>Please fill out this form to help us improve our services.
+</em></u></p>
+Did you follow 14 days quarantine? 
+<label><input type="radio" id="yes" name="test" >Yes</label>
+<label><input type="radio" id="no" name="test">No</label><br><br>
+When did you tested negative? <input type="date" name=""><br><br>
+Do you follow govt protocols? <select name = "prot">
+  <option> Yes </option>
+  <option> No </option>
+  <option> Sometimes </option>
+  </select><br><br>
+
+How did you rate the health department of kerala? <br>
+<label></label><input type="radio" id="one" name="" >Bad</label>
+<label><input type="radio" id="two" name="">Not good</label>
+<label><input type="radio" id="three" name="" >Good</label>
+<label><input type="radio" id="four" name="">Very good</label>
+<label><input type="radio" id="five" name="" >Excellent</label><br><br>
+  
+Any suggestions?<br> <textarea placeholder="Type something..."></textarea><br><br>
+<input class="submit" type="submit" value="Submit">
+<input class="reset" type="reset" value="Reset">
+  </form>
+ </div>
+ </body>
+</html>
